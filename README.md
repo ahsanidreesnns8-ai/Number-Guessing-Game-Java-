@@ -1,103 +1,199 @@
 # 🎯 Number Guessing Game (Java)
 
-A simple console-based **Number Guessing Game** developed in **Java** as my first internship project. The program generates a random number between **1 and 100**, and the player has to guess it with the help of interactive hints.
+> A console-based Number Guessing Game developed in Java. The application generates a random number between **1 and 100**, allowing players to guess the correct number while receiving interactive hints after each attempt.
 
-## ✨ Features
+![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java)
+![Project](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-* Random number generation between **1 and 100**
-* Unlimited guessing attempts
-* Feedback for every incorrect guess:
+---
 
-  * 📈 Too High
-  * 📉 Too Low
-  * 🔥 Extremely Close
-  * 🎯 Too Close
-* Displays the total number of attempts after a successful guess
-* Clean and beginner-friendly console interface
+# 📖 Overview
 
-## 🛠️ Technologies Used
+The **Number Guessing Game** is a beginner-friendly Java console application designed to strengthen programming fundamentals through an interactive game.
 
-* Java
-* Random Class
-* Scanner Class
-* Loops (`while`)
-* Conditional Statements (`if-else`)
-* Math Class (`Math.abs()`)
+The program randomly generates a number between **1 and 100** and guides the player using intelligent hints until the correct number is guessed.
 
-## 🚀 How to Run
+This project was completed as **Project 1** during the **DecodeLabs Java Industrial Training Program**.
 
-1. Clone the repository:
+---
 
-   ```bash
-   git clone https://github.com/your-username/number-guessing-game.git
-   ```
+# ✨ Features
 
-2. Navigate to the project folder:
+- 🎲 Random number generation between **1 and 100**
+- 🔁 Unlimited guessing attempts
+- 📈 "Too High" hint
+- 📉 "Too Low" hint
+- 🔥 "Extremely Close" hint
+- 🎯 "Too Close" hint
+- 📊 Displays total number of attempts
+- 🖥️ Interactive console interface
+- 🎉 Congratulatory message upon winning
 
-   ```bash
-   cd number-guessing-game
-   ```
+---
 
-3. Compile the program:
+# 🛠️ Tech Stack
 
-   ```bash
-   javac Number_guessing_game.java
-   ```
+| Technology | Usage |
+|------------|-------|
+| Java | Core Programming Language |
+| Random | Random Number Generation |
+| Scanner | User Input Handling |
+| Loops | Game Loop |
+| Conditional Statements | Guess Evaluation |
+| Math.abs() | Distance Calculation |
 
-4. Run the program:
+---
 
-   ```bash
-   java Number_guessing_game
-   ```
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-Number Guessing Game/
-│── Number_guessing_game.java
-│── README.md
+number-guessing-game
+│
+├── Number_guessing_game.java
+└── README.md
 ```
 
-## 🎮 Sample Output
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/ahsanidreesnns8-ai/number-guessing-game.git
+```
+
+## Navigate to Project
+
+```bash
+cd number-guessing-game
+```
+
+## Compile
+
+```bash
+javac Number_guessing_game.java
+```
+
+## Run
+
+```bash
+java Number_guessing_game
+```
+
+---
+
+# 💻 Sample Output
 
 ```text
 ====================================
-        Number Guessing Game
+      NUMBER GUESSING GAME
 ====================================
 
 Let's Start!
 
 I have selected a number between 1 and 100.
-Can you guess it?
 
-Enter your guess: 45
+Enter your guess:
+45
+
 Attempts: 1
 Too High
 
-Enter your guess: 52
+Enter your guess:
+52
+
 Attempts: 2
-Too close. Just a little lower
+Too Close
 
-Enter your guess: 50
+Enter your guess:
+50
 
-Congratulations!!!
+Congratulations!
 The secret number was: 50
-You guessed the number in 3 attempt(s).
+
+You guessed the number in 3 attempts.
 ```
 
-## 📚 Learning Outcomes
+---
 
-This project helped me strengthen my understanding of:
+# 🧠 Concepts Implemented
 
-* Random number generation
-* User input handling
-* Loops and program flow
-* Conditional statements
-* Problem-solving and logical thinking
-* Java console application development
+- ✅ Random Number Generation
+- ✅ User Input Handling
+- ✅ Loops (`while`)
+- ✅ Conditional Statements
+- ✅ Math Utility Methods (`Math.abs()`)
+- ✅ Console-Based Programming
+- ✅ Basic Game Logic
 
-## 📄 License
+---
 
-This project is created for learning purposes as part of my Java Internship.
-## Author
-M. Ahsan Idrees
+# 🎯 Learning Outcomes
+
+Through this project, I strengthened my understanding of:
+
+- Java Fundamentals
+- Random Number Generation
+- User Input Handling
+- Loops & Program Flow
+- Conditional Statements
+- Problem-Solving Skills
+- Console Application Development
+
+---
+
+# 📚 DecodeLabs Java Projects
+
+This repository is part of my Java learning journey.
+
+| Project | Repository |
+|---------|------------|
+| ✅ Project 1 | Number Guessing Game *(Current Project)* |
+
+> More Java projects will be added as I progress through the DecodeLabs Industrial Training Program.
+
+---
+
+# 👨‍💻 Author
+
+**Muhammad Ahsan Idrees**
+
+Cybersecurity Undergraduate • University of Engineering and Technology (UET) Lahore
+
+- 🌐 GitHub: https://github.com/ahsanidreesnns8-ai
+- 💼 LinkedIn: https://www.linkedin.com/in/m-ahsan-idrees-664126329
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome.
+
+If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project for educational and personal purposes.
+
+See the **LICENSE** file for more details.
+
+---
+
+> **"Every great Java developer starts with a simple program. Every project is a step toward mastering software development."** 🚀
